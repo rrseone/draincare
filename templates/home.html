@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="hero-section d-flex align-items-center">
+    <div class="container text-center text-white">
+        <h1 class="display-5 fw-bold">Report Drain Blockage Instantly</h1>
+        <p class="lead">Help keep your city clean by reporting blocked drains online.</p>
+        <a href="{% url 'reports:create_report' %}" class="btn btn-lg btn-warning mt-3">Report Now</a>
+    </div>
+</section>
+
+<!-- Features -->
+<section id="features" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Key Features</h2>
+        <div class="row text-center justify-content-center">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <h5>Easy Reporting</h5>
+                    <p>Submit drain issues in just a few clicks.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <h5>Status Tracking</h5>
+                    <p>Track report progress in real time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works -->
+<section id="how" class="bg-light py-5 mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">How It Works</h2>
+        <div class="row text-center">
+            <div class="col-md-3">Register / Login</div>
+            <div class="col-md-3">Submit Report</div>
+            <div class="col-md-3">Admin Reviews</div>
+            <div class="col-md-3">Problem Resolved</div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta-section text-center text-white mb-5">
+    <div class="container">
+        <h2>Be a Responsible Citizen</h2>
+        <p>Report drain problems and help improve public hygiene.</p>
+        <a href="{% url 'accounts:register' %}" class="btn btn-lg btn-light">Get Started</a>
+    </div>
+</section>
+
+{% endblock content %}

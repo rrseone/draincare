@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center mt-3">
+            <div class="col-12 col-md-9 col-lg-6">
+                <form method="POST" action="{% url 'reports:create_report' %}">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="location" class="form-label">Blockage address</label>
+                        <input type="text" name="location" class="form-control" id="location">
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea name="description" class="form-control" id="description" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
