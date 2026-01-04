@@ -1,0 +1,39 @@
+.html, .body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Hero */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1581092919534-1b4a2c5b6a48");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Feature Box */
+.feature-box {
+    padding: 30px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    background: #e9ecef;
+    transform: translateY(-5px);
+}
+
+/* CTA */
+.cta-section {
+    padding: 60px 0;
+    background: #198754;
+}
