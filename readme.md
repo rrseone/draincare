@@ -125,7 +125,7 @@ venv\Scripts\activate
 
 ### 4️⃣ Install Dependencies
 ```bash
-pip install django
+pip install -r requirements.txt
 ```
 
 ### 5️⃣ Run Migrations
