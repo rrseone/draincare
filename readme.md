@@ -108,7 +108,7 @@ draincare/
 
 ### 1️⃣ Clone the Project
 ```bash
-git clone <---- YOUR-CLONE-URL -->
+git clone https://github.com/khalidkbd95-cell/ldbrs.git
 cd draincare
 ```
 
