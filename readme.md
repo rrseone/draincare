@@ -62,13 +62,6 @@ The main objective of this project is to provide a simple and efficient platform
 ```
 draincare/
 │
-├── manage.py
-├── core/
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-│
 ├── apps/
 │   ├── accounts/
 │   │   ├── apps.py
@@ -85,6 +78,12 @@ draincare/
 │   │   ├── views.py
 │   │   ├── urls.py
 │
+├── core/
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│
 ├── static/
 │   └── css/
 │       └── style.css
@@ -99,6 +98,10 @@ draincare/
 │   └── register.html
 │   └── report_form.html
 │   └── report_list.html
+│
+├── .gitignore
+├── manage.py
+├── requirements.txt
 ```
 
 ---
