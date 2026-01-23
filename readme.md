@@ -7,11 +7,11 @@ A university-level web application built with **Python & Django** that allows ci
 ## 📌 Project Information
 
 - **Project Title:** Drain Blockage Reporting System
-- **Student Name:** মো: খালিদ মাহমুদ
-- **ID (Last 4 Digits):** 1508
-- **Session:** 2025
-- **Section:** 8A
-- **Project Type:** University Academic Project
+- **Developer:** Mamunur Rashid
+- **Email:** rrseone@gmail.com
+- **Phone:** +8801916132438
+- **Whatsapp:** +8801916132438
+- **Project Type:** Portfolio Project
 
 ---
 
@@ -27,7 +27,6 @@ The main objective of this project is to provide a simple and efficient platform
 - **Frontend:** HTML, CSS, Bootstrap 5
 - **Database:** SQLite
 - **Authentication:** Django Built-in Authentication System
-- **Tools:** VS Code / PyCharm, Git
 
 ---
 
@@ -108,7 +107,7 @@ draincare/
 
 ### 1️⃣ Clone the Project
 ```bash
-git clone https://github.com/khalidkbd95-cell/ldbrs.git
+git clone https://github.com/rrseone/draincare.git
 cd draincare
 ```
 

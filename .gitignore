@@ -4,6 +4,8 @@ media/*
 # Static media
 # static/img/*
 
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
